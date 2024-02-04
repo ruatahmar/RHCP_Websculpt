@@ -4,23 +4,22 @@ body{
     padding:0px;
 }
 .topPart{
-    background-image: url('./src/home-background.jpg'); 
+    background-image: url('./src/home-background2.jpg'); 
     background-size: contain;
     background-repeat: no-repeat;
-    background-blend-mode: difference;
+    background-attachment:local;
+    
 }
 .topNavigation{
-    
     padding-left: 0px;
     margin-left: 0px;
     /*background: #1D2659;*/
     display: flex;
-    
-    
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 #logo{
     flex:1;
     font-size: 30px;
@@ -28,13 +27,20 @@ body{
     font-weight: bolder;
     display: flex;
     margin-left: 0px;
-    padding-left:100px;
+    padding-left:75px;
     width: 50%;
     justify-content: left;
 }
+
+#logoImage {
+    width: 60px;
+    height: 50px;
+    margin-left:50px;
+    margin-right:20px;
+}
+
 ul{
     width:50%;
-
     display:flex;
     flex:1;
     flex-direction: row;
@@ -43,44 +49,95 @@ ul{
     justify-content: center;
     
 }
+
 li{
     align-items: center;
     justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
     font-weight: bold;
     font-size: 24px;
     display:flex;
     font-size: 18px;
     margin-right:50px;
 }
-.separator{
+
+#contactUsButton{
+    border:1px solid;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.navHeroseparator{
     align-content: center;
     background: #1D2659;
     display: flex; 
     flex: 1;
-    width: 98%;
+    width: 90%;
     opacity: 80%;
     /* height: 1px; */
 }
-.bigSpace{
-    height: 80px;
-}
-.topPartSecond{
+
+.hero{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .nameInBig{
+    margin-top: 50px;
     margin-bottom: 3px;
     align-content: center;
-    font-size: 72px; 
-    font-family: Cooper Black;
+    font-size: 80px; 
+    font-family: 'Cooper Black';
     font-weight: bolder;
 }
+
+/* .heroTagDiv{
+    display: flex;
+    flex-direction: row;
+}
+.heroHr{
+    display: flex;
+    width:fit-content;
+} */
 .tagLine{
     align-content: center;
-    font-size: 15px; 
+    font-size: 20px; 
     font-family: Verdana;
     font-style: italic;
+    margin-bottom: 50px;
+}
+.aboutUs{
+    border: 1px solid;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding:15px;
+    font-size:20px;
+    justify-content: center;
+    font-family: 'Calibri';
+}
+.achievementsButton{
+    border:1px solid;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color:rgba(75, 59, 46, 0.79);
+    padding:10px;
+    margin:15px;
+}
+.heroButtons{
+    display: flex;
+    flex-direction: row;
+}
+.magazineButton{
+    border:1px solid;
+    color: white;
+    font-family: Verdana;
+    font-size: 24px;
+    background-color:rgba(75, 59, 46, 0.79);
+    padding:10px;
+    margin:15px
 }
