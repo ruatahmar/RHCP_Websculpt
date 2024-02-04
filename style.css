@@ -23,8 +23,8 @@ body{
 }
 #logo{
     flex:1;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-family: Verdana;
     font-weight: bolder;
     display: flex;
     margin-left: 0px;
@@ -46,7 +46,7 @@ ul{
 li{
     align-items: center;
     justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 24px;
     display:flex;
@@ -59,10 +59,11 @@ li{
     display: flex; 
     flex: 1;
     width: 98%;
-    height: 10 px;
+    opacity: 80%;
+    /* height: 1px; */
 }
 .bigSpace{
-    height: 400 px;
+    height: 80px;
 }
 .topPartSecond{
     display:flex;
@@ -71,7 +72,15 @@ li{
     justify-content: center;
 }
 .nameInBig{
+    margin-bottom: 3px;
     align-content: center;
-    font-size: 48px; 
-    font-family: Tahoma;
+    font-size: 72px; 
+    font-family: Cooper Black;
+    font-weight: bolder;
+}
+.tagLine{
+    align-content: center;
+    font-size: 15px; 
+    font-family: Verdana;
+    font-style: italic;
 }
