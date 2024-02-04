@@ -119,25 +119,16 @@ li{
     justify-content: center;
     font-family: 'Calibri';
 }
-.achievementsButton{
+.achievementsButton, .magazineButton{
     border:1px solid;
     color: white;
     font-family: Verdana;
     font-size: 20px;
-    background-color:rgba(75, 59, 46, 0.79);
+    background-color:rgba(166,125,101, 0.79);
     padding:10px;
     margin:15px;
 }
 .heroButtons{
     display: flex;
     flex-direction: row;
-}
-.magazineButton{
-    border:1px solid;
-    color: white;
-    font-family: Verdana;
-    font-size: 24px;
-    background-color:rgba(75, 59, 46, 0.79);
-    padding:10px;
-    margin:15px
 }
