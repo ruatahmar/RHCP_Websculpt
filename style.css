@@ -161,7 +161,7 @@ li{
 
 
 .fold3{
-    color:black;
+    color:white;
     background: linear-gradient(0deg, #786455ff, #392E27ff);
     display: flex;
     flex-direction: column;
@@ -172,7 +172,6 @@ li{
     display: flex;
     margin-top: 50px;
     margin-bottom: 3px;
-    color:black;
     /* spaces the horizontal line */
     margin-left: 10px;
     margin-right: 10px;
@@ -194,11 +193,11 @@ li{
     display: flex;
     margin:25x;
     border:1px solid;
-    background: black;
+    background: white;
     margin-top: 75px;
     height: 1px;
     width: 100px;
-    color: black;
+    color: white;
 }
 .fold3Content{
     display: flex;
