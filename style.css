@@ -278,6 +278,7 @@ linear-gradient(to right, rgba(118, 104, 91, 1) 0%, 12.459016591310501%, rgba(14
  */
 .fold4{
     margin-top: 30px;
+    margin-bottom: 0px;
 }
  .galleryHeader{
     display: flex;
@@ -298,11 +299,117 @@ linear-gradient(to right, rgba(118, 104, 91, 1) 0%, 12.459016591310501%, rgba(14
     flex-direction: row;
     margin:10px;
 }
-img{
+.galleryPic{
     display: flex;
     height: 400px;
     margin:10px;
     padding: 10px;
+    margin-bottom: 0px;
     
 }
+.fold5{
+    color:black;
+    background: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);;
+    margin-top: 0px;
+    padding-top:100px;
+}
+.fold5Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.magazineTitleSection{
+    display: flex;
+    flex-direction: row;
+}
+.magazineHR{
+    display: flex;
+    margin:25x;
+    border:1px solid;
+    background: black;
+    margin-top: 50px;
+    height: 1px;
+    width: 100px;
+    color: black;
+}
+.magazineTitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    display: flex;
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+    
+}
+.magazinePresentedBy{
+    font-size: 20px; 
+    font-family: Verdana;
+    font-style: italic;
+}
+.fold5Content{
 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+}
+.fold5Left,.fold5Right{
+    width: 50%;
+    margin:30px;
+}
+.fold5Right{
+    margin-top:auto;
+    margin-bottom: auto ;
+    padding-left: 30px;
+    margin-left: 40px;
+}
+.magazineName{
+    font-size: 50px;
+}
+.magazineDetailsTag{
+    padding:20px;
+    font-size: 70px;
+}
+.magazinePic{
+    border:1px solid;
+    height:1000px;
+}
+.magazineName{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    display: flex;
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+.magazineNameTitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    display: flex;
+    color:#8C5038;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+.magazineDetailsHR{
+    display: flex;
+    margin:25x;
+    border:1px solid;
+    background: black;
+    margin-top:25px;
+    height: 1px;
+    width: 100px;
+    color: black;
+}
+.magazineDetails{
+    font-size: 25px;
+}
