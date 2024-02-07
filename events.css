@@ -1,0 +1,94 @@
+body{
+    background-color: linear-gradient(45deg, #28140bff, #1f1914ff, #3c120aff, #441b0dff, #7b5f48ff);
+    margin:0px;
+    padding:0px;
+}
+.topPart{
+    background-image: url('./src/home-background2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    height: 100%;
+}
+
+.nav1{
+    background-color: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);
+}
+.topNavigation{
+    background-color: ;
+    padding-left: 0px;
+    margin-left: 0px;
+    /*background: #1D2659;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    flex:1;
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: bolder;
+    display: flex;
+    margin-left: 0px;
+    padding-left:75px;
+    width: 50%;
+    justify-content: left;
+}
+
+#logoImage {
+    width: 60px;
+    height: 50px;
+    margin-left:50px;
+    margin-right:20px;
+}
+
+ul{
+    width:50%;
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    font-size: 24px;
+    display:flex;
+    font-size: 18px;
+    margin-right:50px;
+}
+
+#contactUsButton{
+    border:1px solid;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.navHeroseparator{
+    align-content: center;
+    justify-content: center;
+    background: #1D2659;
+    display: flex; 
+    flex: 1;
+    width: 90%;
+    opacity: 80%;
+    margin-left:70px;
+    /* height: 1px; */
+}
+
+.hero{
+    width:100%;
+    background-image: url("./src/events-hero2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    height:900px;
+}
