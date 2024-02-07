@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="edit.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="bandTitle">BAND</title>
-    <body style="background-color: #493222;">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title id="bandTitle">BAND</title>
+</head>
+    <body style="background-color: #493222;">
     <div class="topPart">
         <!-- We need to figure out how the fuck we make this is a sticky nav bar. I tried some shit and it never worked -->
         <div class="topNavigation">
@@ -60,9 +61,9 @@
 
         <div class="fold3">
             <div class="achievementsSection">
-                <div class="achievementsHR"></div>
-                <h1 class="animate__animated animate__fadeInLeftBig achievementsTitle">Achievements</h1>
-                <div class="achievementsHR"></div>
+                <div class="achievementsHR" data-aos="fade-right"></div>
+                <h1 class="achievementsTitle" data-aos="fade-right">Achievements</h1>
+                <div class="achievementsHR" data-aos="fade-right"></div>
             </div>
             <div class="fold3Content">
                 <h6 class="animate__animated animate__fadeIn fold3Intro">These achievements provide a roadmap for the club's progress and contribute to 
@@ -73,37 +74,49 @@
                     </div>     -->
                 <div class="achievements">
                     
-                    <div id="achieveBox1" class="animate__animated animate__backInUp achievementBox" >
+                    <div id="achieveBox1" class="achievementBox" data-aos="fade-up">
                         <h6 class="achievementBoxHeadings">Musical Workshops</h6>
                         
-                        <p class="achievementBoxDetails">Conduct a series of successful workshops on various musical topics, such as songwriting, music production, or instrument techniques.</p>
+                        <p class="achievementBoxDetails">Conduct a series of successful workshops on various musical topics, such as songwriting, music production, or instrument techniques. Due to the large variety of musicians in the club, workshops have been held for several different instruments and genre ranging from classic pop and rock to traditional sitar arrangements. </p>
                     </div>
-                    <div id="achieveBox2" class="animate__animated animate__backInUp achievementBox">
+                    <div id="achieveBox2" class="achievementBox" data-aos="fade-up">
                         <h6 class="achievementBoxHeadings">Local Gig</h6>
                         
-                        <p class="achievementBoxDetails">Secure a performance opportunity at a local venue, showcasing the talent within the club.</p>
+                        <p class="achievementBoxDetails">Secure a performance opportunity at a local venue, showcasing the talent within the club. The club has been invited several times to local venues for hour long performances</p>
                     </div>
-                    <div id="achieveBox3" class="animate__animated animate__backInUp achievementBox">
+                    <div id="achieveBox3" class="achievementBox" data-aos="fade-up">
                         <h6 class="achievementBoxHeadings">Music Charity Event</h6>
                         
-                        <p class="achievementBoxDetails">Organize and host a charity event or performance to support a musical or community-related cause.</p>
+                        <p class="achievementBoxDetails">Organize and host a charity event or performance to support a musical or community-related cause. The club has successful raised money for associations like the Immune Deficiency Foundation and the Deaf Senior Citizens Support Center. .</p>
                     </div>
-                    <div id="achieveBox4" class="animate__animated animate__backInUp achievementBox">
+                    <div id="achieveBox4" class="achievementBox" data-aos="fade-up">
                         <h6 class="achievementBoxHeadings">Music Festivals </h6>
                         
-                        <p class="achievementBoxDetails"  >Represent the club by participating in local or regional music festivals.</p>
+                        <p class="achievementBoxDetails"  >Represent the club by participating in local or regional music festivals. The club has successful won first price in the HornBill festival(2023). The club also recently performed at the NH7 Weekender festival(2023) </p>
                     </div>
                     
                 </div>
-                <div class="fold4">
-                    
-                </div>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+                
+                <br><br><br><br>
             </div>
+           
 
+        </div>
+        <div class="fold4">
+            <h1 class="galleryHeader" data-aos="fade-up-right">GALLERY</h1>
+            <hr>
+            <div class="galleryRow1">
+                
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
 
 
     </div>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

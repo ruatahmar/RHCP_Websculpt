@@ -166,6 +166,7 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .achievementsTitle {
@@ -275,4 +276,13 @@ linear-gradient(to right, #76685B 0%, 12.459016591310501%, #8C6347 24.9180331826
 Gradient in RGBA 
 linear-gradient(to right, rgba(118, 104, 91, 1) 0%, 12.459016591310501%, rgba(140, 99, 71, 1) 24.918033182621002%, 32.459016889333725%, rgba(151, 120, 100, 1) 40.00000059604645%, 45.24590224027634%, rgba(79, 75, 74, 1) 50.491803884506226%, 56.065574288368225%, rgba(164, 110, 70, 1) 61.639344692230225%, 67.54098236560822%, rgba(12, 4, 1, 1) 73.4426200389862%, 79.83606457710266%, rgba(88, 51, 32, 1) 86.22950911521912%, 93.11475455760956%, rgba(87, 31, 18, 1) 100%);
  */
-
+.fold4{
+    margin-top: 30px;
+}
+ .galleryHeader{
+    display: flex;
+    padding-left :60px ;
+    font-family: 'Cooper';
+    font-style:normal;
+    font-size: 40px; 
+}
