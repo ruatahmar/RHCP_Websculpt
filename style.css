@@ -125,9 +125,6 @@ li{
     
 }
 
-/* .heroButtons {
-    
-} */
 .achievementsButton, .magazineButton{
     border:1px solid;
     justify-content: center;
@@ -147,22 +144,25 @@ li{
 }
 
 .middle {
-    color: #493222;
+    color:white;
+    background: linear-gradient(45deg, #28140bff, #1f1914ff, #3c120aff, #441b0dff, #7b5f48ff);
         
 }
 
+
 .fold2 {
-    color: black;
-    flex:1;
-    display:flex;
+    color:white;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    height: 500px;
+    
+    border: 1px solid; /* this is temporary */
 }
 
 
-
 .fold3{
-    color:black;
-    background: linear-gradient(0deg, #786455ff, #392E27ff);
+    color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,7 +172,7 @@ li{
     display: flex;
     margin-top: 50px;
     margin-bottom: 3px;
-    color:black;
+    color:white;
     /* spaces the horizontal line */
     margin-left: 10px;
     margin-right: 10px;
@@ -198,7 +198,7 @@ li{
     margin-top: 75px;
     height: 1px;
     width: 100px;
-    color: black;
+    color: white;
 }
 .fold3Content{
     display: flex;
@@ -215,7 +215,7 @@ li{
     justify-content: center;
 }
 
-.achievements, .lines{
+.achievements, .lines, fold2Boxes{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -234,12 +234,12 @@ li{
     margin-bottom:1px;
 }
 
-.achievementBox{
+.achievementBox, fold2Box{
     display: flex;
     flex-direction: column;
     align-items: center;
     color:white;
-    border: 1px solid;
+    border: 1px solid rgba(255, 255, 255, .3);
     
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     display: flex;
@@ -247,7 +247,13 @@ li{
     margin-right:20px;
     width: 250px;
     height: 350px;
-    
+}
+
+#achieveBox1, #achieveBox3 {
+    background: linear-gradient(0deg,#624532, #8C6348,#402D21);
+}
+#achieveBox2, #achieveBox4 {
+    background: linear-gradient(0deg,  #973721ff , #732a19ff, #43180E);
 }
 .achievementBoxHeadings{
     display: flex;
