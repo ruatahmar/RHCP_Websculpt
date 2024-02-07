@@ -97,7 +97,7 @@ li{
     font-weight: bolder;
 }
 
-/* .heroTagDiv{
+/*.heroTagDiv{
     display: flex;
     flex-direction: row;
 }
@@ -105,6 +105,7 @@ li{
     display: flex;
     width:fit-content;
 } */
+
 .tagLine{
     align-content: center;
     font-size: 20px; 
@@ -125,7 +126,7 @@ li{
     
 }
 
-.achievementsButton, .magazineButton{
+.achievementsButton, .magazineButton, .toEventsPageButton{
     border:1px solid;
     justify-content: center;
     align-items: center;
@@ -155,10 +156,98 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
     
-    border: 1px solid; /* this is temporary */
 }
+
+.fold2Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    border: 1px solid rgba(255, 255, 255, .3);
+    display: flex;
+    margin-right:20px;
+    width: 400px;
+    height: 450px;
+}
+
+
+.fold2HeadingTitle{
+    font-family: "Berlin Sans FB Demi";
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-style: normal;
+    color: white;
+}
+
+.fold2Details{
+    width:85%;
+    height: 15%;
+    display: flex;
+    margin-top:25%;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fold2BoxItem {
+    display: flex;
+    flex-direction: row;
+}
+
+#StatHeading {
+    padding-bottom: 50px;
+}
+
+.StatNumber {
+    color:#EAA577;
+    border-bottom: #8C6348;
+    margin-top:0px;
+    padding-top:8px;
+    font-size:36px;
+    padding-left:35px;
+    padding-right:20px;
+    text-align: left;
+}
+
+
+.StatText{
+    font-size: 18px;
+    margin-top:0px;
+    padding-top:15px;
+    margin-bottom:0px;
+    text-align: center;
+    justify-content: center;
+    
+    font-family: "Gill Sans MT";
+
+}
+
+.UpdateText {
+    margin-top:15px;
+    margin-bottom:10px;
+    text-align: center;
+    padding-left:20px;
+    margin-right:20px;
+    font-size: 15px;
+    
+}
+.UpdateDate {
+    margin-top:15px;
+    margin-bottom:10px;
+    text-align: left;
+    margin-left:20px;
+    font-size: 17px;
+    font-family:Impact;
+}
+
 
 
 .fold3{
@@ -206,7 +295,7 @@ li{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    background-color:  linear-gradient(to right, #76685B 0%, 12.459016591310501%, #8C6347 24.918033182621002%, 32.459016889333725%, #977864 40.00000059604645%, 45.24590224027634%, #4F4B4A 50.491803884506226%, 56.065574288368225%, #A46E46 61.639344692230225%, 67.54098236560822%, #0C0401 73.4426200389862%, 79.83606457710266%, #583320 86.22950911521912%, 93.11475455760956%, #571F12 100%);
+    /* background-color:  linear-gradient(0deg #76685B 0%, 12.459016591310501%, #8C6347 24.918033182621002%, 32.459016889333725%, #977864 40.00000059604645%, 45.24590224027634%, #4F4B4A 50.491803884506226%, 56.065574288368225%, #A46E46 61.639344692230225%, 67.54098236560822%, #0C0401 73.4426200389862%, 79.83606457710266%, #583320 86.22950911521912%, 93.11475455760956%, #571F12 100%); */
 }
 .fold3Intro{
     display: flex;
@@ -216,7 +305,7 @@ li{
     justify-content: center;
 }
 
-.achievements, .lines, fold2Boxes{
+.achievements, .lines, .fold2Boxes{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -235,13 +324,12 @@ li{
     margin-bottom:1px;
 }
 
-.achievementBox, fold2Box{
+.achievementBox {
     display: flex;
     flex-direction: column;
     align-items: center;
     color:white;
     border: 1px solid rgba(255, 255, 255, .3);
-    
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     display: flex;
     border:1px solid;
