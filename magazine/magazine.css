@@ -115,3 +115,15 @@ body{
 .magazineDetails{
     font-size: 25px;
 }
+.pdf{
+    background: #A67D65;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+object{
+    height:700px;
+    display: flex;
+}
