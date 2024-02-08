@@ -42,7 +42,7 @@ body{
     margin-right:20px;
 }
 
-ul{
+.navigationUl{
     width:50%;
     display:flex;
     flex:1;
@@ -53,7 +53,7 @@ ul{
     
 }
 
-li{
+.navigationLi{
     align-items: center;
     justify-content: center;
     font-family: 'Lucida Sans';
@@ -63,6 +63,7 @@ li{
     font-size: 18px;
     margin-right:50px;
 }
+
 
 #contactUsButton{
     border:1px solid;
@@ -402,5 +403,72 @@ linear-gradient(to right, rgba(118, 104, 91, 1) 0%, 12.459016591310501%, rgba(14
 .fold6{
     background: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);
     display: flex;
+    padding:200px;
     flex-direction: column;
+}
+iframe{
+    border:1px solid ;
+    border-color: black;
+    height: 900px;
+    width: 700px;
+}
+.contactUsContent{
+    display: flex;
+    flex-direction: row;
+}
+.contactUsLeft,.contactUsRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contactUsRight{
+    align-items: left;
+    justify-content: left;
+}
+.contactUsTag{
+    color: black;
+    padding:20px;
+    font-size: 50px;
+}
+
+.contactTitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 85px;
+    
+    color:black;
+
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+.contactTitleHeader{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    display: flex;
+    color:#8C5038;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+.contactHr{
+    display: flex;
+    margin:25x;
+    border:1px solid;
+    background: black;
+    margin-top:25px;
+    height: 1px;
+    width: 100px;
+    color: black;
+}
+.contactUsDetails{
+    font-size: 25px;
+    font-style: italic;
+    color:black;
+}
+li{
+    font-size: 25px;
+    font-style: italic;
 }
