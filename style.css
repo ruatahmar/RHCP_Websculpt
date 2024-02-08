@@ -423,6 +423,7 @@ iframe{
     flex-direction: column;
 }
 .contactUsRight{
+    padding:30px;
     align-items: left;
     justify-content: left;
 }
@@ -469,6 +470,39 @@ iframe{
     font-style: italic;
     color:black;
 }
+.fold7{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background:#F8F4EA;
+    color: black;
+    padding-left: 60px;
+    padding-right:60px ;
+}
+.fold7Content{
+    display: flex;
+    flex-direction: row;
+}
+.fold7ContentItems{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fold7ContentHeader{
+    font-size:25px ;
+    font-family: Barlow, sans-serif;
+}
+.fold7ContentDetails{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.fold7Img{
+    height:90px;
+}
+
 li{
     font-size: 25px;
     font-style: italic;
