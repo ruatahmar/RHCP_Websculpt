@@ -167,6 +167,7 @@ body{
 }
 
 .fold2Box {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -471,4 +472,18 @@ iframe{
 li{
     font-size: 25px;
     font-style: italic;
+}
+a:link,a:active, a:visited{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: none;
+    color:#402D21;
+}
+a.navLi:hover{
+    color:#bebebe;
+}
+html{
+    scroll-behavior: smooth;
 }

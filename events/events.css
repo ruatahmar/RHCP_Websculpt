@@ -299,8 +299,10 @@ a.heroLink:link,
 a.heroLink:active,
 a.heroLink:visited
 {
+    text-decoration: none;
     color:white;
 }
 a.heroLink:hover{
+    text-decoration: none;
     color:#732A15;
 }
