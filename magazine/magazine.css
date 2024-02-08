@@ -83,7 +83,7 @@ body{
 .magazineName{
     margin-top: 10px;
     margin-bottom: 5px;
-    font-size: 70px;
+    font-size: 85px;
     display: flex;
     color:black;
     margin-left: 20px;
@@ -114,6 +114,7 @@ body{
 }
 .magazineDetails{
     font-size: 25px;
+    font-style: italic;
 }
 .pdf{
     background: #A67D65;

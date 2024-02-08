@@ -1,44 +1,136 @@
-.fold5Header{
+body{
+    background: linear-gradient(45deg, #350004ff, #3e0005ff, #670006ff, #820013ff);
+}
+.navAndHero{
     background-image:url('../src/events-hero2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:local;
-    padding-top:100px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.magazineTitleSection{
+
+.topNavigation{
+    background-color: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);;
+    
+    margin-top: 25px;
+    width:90%;
+    /*background: #1D2659;*/
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding-bottom:10px;
 }
-.magazineHR{
+
+#logo{
+    flex:1;
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: bolder;
     display: flex;
-    margin:25x;
+    width: 50%;
+    justify-content: left;
+    
+}
+
+#logoImage {
+    width: 60px;
+    height: 50px;
+    margin-right:20px;
+}
+
+ul{
+    width:50%;
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: right;    
+}
+
+li{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    font-size: 24px;
+    display:flex;
+    font-size: 18px;
+    margin-right:50px;
+}
+
+#contactUsButton{
+    border:1px solid;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.navHeroseparator{
+    align-self: center;
+    justify-content: center;
+    color: white;
+    display: flex; 
+    flex: 1;
+    width: 90%;
+    opacity: 80%;
+    margin-right:50px;
+    border-top: 2px solid white;
+    /* height: 1px; */
+}
+
+.EventsTitleScreen{
+    display: flex;
+    flex-direction: row;
+    padding-top:125px;
+    padding-bottom: 0px;
+    
+}
+.titleHR{
+    display: flex;
+    margin:25px;
     border:1px solid;
     background: white;
-    margin-top: 50px;
+    margin-top: 60px;
     height: 1px;
     width: 100px;
     color: white;
 }
-.magazineTitle{
+.eventsTitle{
     margin-top: 10px;
     margin-bottom: 5px;
-    font-size: 70px;
+    font-size: 85px;
     display: flex;
     color:white;
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Cooper';
     font-style:normal;
-    
 }
-.magazinePresentedBy{
-    font-size: 20px; 
-    font-family: Verdana;
+.heroOneLiner{
+    font-size: 20px;
     font-style: italic;
+    font-family: "Verdana";
+    padding-top:1.5%;
+    padding-bottom: 100px;
     color:white;
+
+}
+
+#belowHero{
+    padding-top:1px;
+    border-top: 1px solid rgba(41, 0, 3, 1);
+    background: rgba(41, 0, 3, 1);
+    align-content: center;
+    align-self: center;
+    width: 98%;
+}
+
+.middle{
+    align-content: center;
 }
