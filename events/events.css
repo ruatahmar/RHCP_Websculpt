@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(45deg, #350004ff, #3e0005ff, #670006ff, #820013ff);
+    background: #F8F4EA;
 }
 .navAndHero{
     background-image:url('../src/events-hero2.jpg');
@@ -133,4 +133,140 @@ li{
 
 .middle{
     align-content: center;
+}
+
+.upcomingEvents, .completedEvents{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background:#F8F4EA;
+    align-items: center;
+    justify-content: center;
+}
+.upcomingEventsHeader, .completedEventsHeader{
+    font-family: 'Cooper';
+    font-style:normal;
+    color:#732A15;
+    font-size: 60px;
+    padding:30px;
+    border-bottom:3px solid rgba(0, 0, 0, .3);
+}
+.Items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Item{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    padding-bottom:50px;
+}
+
+.ItemRight, .ItemLeft {
+    display: flex;
+    width:50%;
+    margin:30px;
+}
+
+#ItemLeftType1{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center;
+    justify-content: center; */
+}
+
+.ItemPic {
+    height:700px;
+    width:75%;
+    padding-left: 150px;
+    overflow: hidden;
+    align-content: center;
+    
+}
+
+
+
+#ItemRightType1, #ItemLeftType2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:50px;
+    font-family: "Century Gothic";
+}
+
+.ItemName{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: left;
+    align-content: left;
+}
+
+.ItemName{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    display: flex;
+    align-content: left;
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+.ItemNameTitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    display: flex;
+    color:#8C5038;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Cooper';
+    font-style:normal;
+}
+
+.itemDetailsHR{
+    display: flex;
+    margin:25x;
+    border:1px solid;
+    background: black;
+    margin-top:35px;
+    height: 1px;
+    width: 100px;
+    color: black;
+}
+.itemDescription{
+    padding-top:20px;
+    font-size: 25px;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.galleryRow1,.galleryRow2{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+.galleryPic{
+    display: flex;
+    max-height: 400px;
+    max-width: 600px;
+    margin:10px;
+    padding: 10px;
+    margin-bottom: 0px;
+    
+}
+
+#acs2ndImage{
+    width: 400px;
+    height: auto;
 }
