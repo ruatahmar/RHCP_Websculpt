@@ -292,3 +292,20 @@ li{
     width: 400px;
     height: auto;
 }
+a:link,a:active, a:visited{
+    color: black;
+  }
+a:hover {
+    color: #8C5038;
+  }
+a.heroLink:link,
+a.heroLink:active,
+a.heroLink:visited
+{
+    text-decoration: none;
+    color:white;
+}
+a.heroLink:hover{
+    text-decoration: none;
+    color:#732A15;
+}
