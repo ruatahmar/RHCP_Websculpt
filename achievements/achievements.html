@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+<html>
     <head>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }   
+        </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>HS | Achievements</title>
-        <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <meta name="description" content="">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="achievements.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
     </head>
     <body>
         <div class="navAndHero">
             <div class="topNavigation">
                 <div id="logo">
                     <!-- <img id="logoImage" src ="./src/home-background.jpg" width=5px height=50px alt="college-logo"> -->
-                    <img id="logoImage" src ="../src/home-background.jpg" alt="club-logo">
+                    <!-- <img id="logoImage" src ="../src/home-background.jpg" alt="club-logo"> -->
                     harmony synapses
                 </div>
                 <ul>
@@ -33,15 +39,157 @@
             <div class="achievementsTitleScreen">
                 <div class="titleHR" data-aos="fade-right"></div>
                 <h1 class="achievementsTitle" data-aos="fade-right">ACHIEVEMENTS</h1>
-                <div class="titleHR" data-aos="fade-right"></div>
+                <div class="titleHR" ></div>
             </div>
             
             <p class="heroOneLiner">Discover Harmony Synapses' musical milestones and triumphs that resonate beyond notes and chords.</p>
         </div>
+        <div id="belowHero" class="navHeroseparator"></div>
         
-<!--         
+        <div class="middle">
+            <!-- major events -->
+            <div id="fold">
+                <h1 class="foldHeader">Major Events</h1>
+
+                <div class="Items">
+                    <div class="Item">
+                        <div id="ItemLeftType1" class="ItemLeft">
+                            
+                            <img class="ItemPic" src="../src/battle_of_the_bands_cover.jpg" data-aos="fade-up">
+                        </div>
+                        <div id="ItemRightType1" class="ItemRight" data-aos="fade-up">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">BotB '23 Champions</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">In 2023, Harmony Synapses triumphed as the undisputed champions of the Battle of the Bands competition, showcasing unparalleled musical talent and creativity. Through electrifying performances and captivating stage presence, our band captivated the audience and judges alike, securing our place at the pinnacle of musical excellence. This victory stands as a testament to our dedication, passion, and unity as a club, marking a milestone achievement in our musical journey.
+                            </p>
+
+                         </div>
+                    </div>
+                    
+                    <div class="Item">
+                        <div id="ItemLeftType2" class="ItemLeft">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">HornBill Festival 2023</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">In 2023, Harmony Synapses emerged victorious at the prestigious Hornbill Festival, solidifying our reputation as one of the most talented and dynamic music clubs in the region. With our electrifying performances and unmatched stage presence, we captivated audiences and judges alike, earning the title of Hornbill Festival Champions. This remarkable achievement reflects our club's dedication, passion, and commitment to musical excellence. We are incredibly proud to have represented our club and community on such a prestigious stage.
+                            </p>
+                        </div>
+
+                        <div id="ItemRightType2" class="ItemRight" data-aos="fade-up">
+                            <img id="hornbill" class="ItemPic" src="../src/achievements/hornbill-festival-2023.jpg" data-aos="fade-up">
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collaboration works/Collaborative Initiatives -->
+            <div id="fold" >
+                <h1 class="foldHeader">Collaborative Initiatives</h1>
+
+                <div class="Items">
+                    <div class="Item">
+                        <div id="ItemLeftType1" class="ItemLeft">
+                            
+                            <img class="ItemPicWide" class="ItemPic" src="../src/achievements/edu1.jpg" data-aos="fade-up">
+                        </div>
+                        <div id="ItemRightType1" class="ItemRight" data-aos="fade-up">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">Music Education Fundraiser</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">In a remarkable display of community support and generosity, Harmony Synapses organized and hosted a successful fundraiser for local music education initiatives. Through various events and activities, including benefit concerts, raffles, and donation drives, the club rallied together to raise funds to support music education programs in the local community. This initiative not only highlighted the club's commitment to nurturing musical talent but also demonstrated its dedication to giving back and enriching the lives of others through the power of music.
+                            </p>
+
+                         </div>
+                    </div>
+                    
+                    <div class="Item">
+                        <div id="ItemLeftType2" class="ItemLeft">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">Music Charity Event</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">Harmony Synapses orchestrated a Music Charity Event, uniting the community through the universal language of music. Through performances, auctions, and donations, the club raised vital funds for organizations like the Immune Deficiency Foundation and the Deaf Senior Citizens Support Center. This event exemplified the club's dedication to using music as a force for good, bringing people together to make a tangible difference in the lives of others.
+                            </p>
+                        </div>
+
+                        <div id="ItemRightType2" class="ItemRight" data-aos="fade-up">
+                            <img class="ItemPicWide" class="ItemPic" src="../src/achievements/live-music-for-charity.jpg" data-aos="fade-up">
+                         </div>
+                    </div>
+
+                    <div class="Item">
+                        <div id="ItemLeftType1" class="ItemLeft">
+                            
+                            <img class="ItemPicWide" class="ItemPic" class="ItemPicWide" src="../src/achievements/songwriting-collaboration.webp" data-aos="fade-up">
+                        </div>
+                        <div id="ItemRightType1" class="ItemRight" data-aos="fade-up">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">Local Collaborations</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">Harmony Synapses fostered meaningful collaborations with local artists and organizations, enriching the community through shared musical experiences. By partnering with diverse talents and community groups, the club expanded its reach and impact, hosting joint performances, workshops, and events. These collaborations not only showcased the club's spirit of inclusivity and creativity but also strengthened connections within the local music scene, paving the way for future partnerships and shared endeavors.
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fold" >
+                <h1 class="foldHeader">Objectives Completed</h1>
+                <div class="Items">
+                    <div class="Item">
+                        <div id="ItemLeftType2" class="ItemLeft">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">Recognition</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">Harmony Synapses made waves in both college and local media circles, earning notable recognition for its outstanding musical talent and community contributions. Featured in articles, interviews, and event highlights, the club's achievements took center stage, captivating audiences and amplifying its presence across the community. This media recognition not only celebrated the club's commitment to musical excellence but also underscored its role as a dynamic force in shaping the local music scene. Through these platforms, Harmony Synapses solidified its reputation as a leading voice in musical innovation and community engagement.
+                            </p>
+                        </div>
+
+                        <div id="ItemRightType2" class="ItemRight" data-aos="fade-up">
+                            <img class="ItemPic" src="../src/achievements/clout.gif" data-aos="fade-up">
+                         </div>
+                    </div>
+
+                    <div class="Item">
+                        <div id="ItemLeftType1" class="ItemLeft">
+                            <img class="ItemPic2" src="../src/events/completed events/autumn concert/autumn-concert-poster.jpg" data-aos="fade-up">
+                        </div>
+                        <div id="ItemRightType1" class="ItemRight" data-aos="fade-up">
+                            <div class="ItemName">
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                                <h1 class="ItemNameTitle" data-aos="fade-up">Establishment of ACS</h1>
+                                <div class="itemDetailsHR" data-aos="fade-up"></div>
+                            </div>
+                            
+                            <p class="itemDescription">Harmony Synapses proudly presented its Autumn Concert Series (ACS), an annual showcase of musical talent and creativity that became a highlight of the club's calendar. Each autumn, ACS brought together musicians from diverse backgrounds to enchant audiences with captivating performances ranging from soulful ballads to electrifying anthems. With meticulous planning and dedication, Harmony Synapses established ACS as a premier event, drawing music enthusiasts from far and wide to experience the magic of live music in the vibrant autumn atmosphere. As the leaves changed color, ACS continued to illuminate the local music scene, celebrating the spirit of creativity, collaboration, and community that defined Harmony Synapses.
+                         </div>
+                    </div>
+
+                    
+
+                </div>
+
+        </div>
+        
         <script>
             AOS.init();
-        </script> -->
+        </script>
     </body>
 </html>
