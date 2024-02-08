@@ -9,7 +9,7 @@ body{
     
 }
 .fold5 .fold5Header{
-    background-image:url("./src/2.jpg");
+    background-image:url("../src/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:local;
