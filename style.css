@@ -262,7 +262,7 @@ li{
     margin-bottom: 80px;
 }
 
-.achievementsTitle {
+.achievementsTitle, .contactTitleHeader{
     display: flex;
     margin-top: 50px;
     margin-bottom: 3px;
@@ -279,12 +279,12 @@ li{
     
 }
 
-.achievementsSection{
+.achievementsSection,.contactTitle{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.achievementsHR{
+.achievementsHR, .contactHr{
     display: flex;
     margin:25x;
     border:1px solid;
@@ -398,4 +398,9 @@ linear-gradient(to right, rgba(118, 104, 91, 1) 0%, 12.459016591310501%, rgba(14
     padding: 10px;
     margin-bottom: 0px;
     
+}
+.fold6{
+    background: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);
+    display: flex;
+    flex-direction: column;
 }
