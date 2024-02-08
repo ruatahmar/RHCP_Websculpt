@@ -1,3 +1,5 @@
+
+
 body{
     background: #F8F4EA;
 }
@@ -122,6 +124,25 @@ li{
 
 }
 
+.heroButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.toUpcomingEventsButton, .toCompletedEventsButton{
+    border:1px solid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color:rgba(166,125,101, 0.79);
+    padding:10px;
+    margin:15px;
+    margin-bottom:50%;
+    text-decoration: none;
+}
+
 #belowHero{
     padding-top:1px;
     border-top: 1px solid rgba(41, 0, 3, 1);
@@ -135,7 +156,7 @@ li{
     align-content: center;
 }
 
-.upcomingEvents, .completedEvents{
+#upcomingEvents, #completedEvents{
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -186,8 +207,6 @@ li{
     align-content: center;
     
 }
-
-
 
 #ItemRightType1, #ItemLeftType2 {
     display: flex;
