@@ -12,10 +12,10 @@
     <body style="background-color: #493222;">
     <div class="topPart">
         <!-- We need to figure out how the fuck we make this is a sticky nav bar. I tried some shit and it never worked -->
-        <div class="topNavigation">
+        <div id="nav1" class="topNavigation">
             <div id="logo">
                 <!-- <img id="logoImage" src ="./src/home-background.jpg" width=5px height=50px alt="college-logo"> -->
-                <!--<img id="logoImage" src ="./src/home-background.jpg" alt="club-logo"> -->
+                <!-- <img id="logoImage" src ="./src/logo3.png" alt="club-logo"> -->
                 harmony synapses
             </div>
             <ul class="navigationUl">
@@ -233,10 +233,22 @@
     </div>
 
     <script>
-        AOS.init();
         
-    
+        
+        var makeSticky = function() {
+            var navbar = document.getElementsByClassName("topNavigation");
+            var navLinks = document.getElementsByClassName("navigationLi");
+            console.log(navbar);
+            console.log(navLinks);
+            navbar[0].classList.toggle("sticky", window.scrollY > 0);
+            for(var i = 0; i < navLinks; i++) {
+                navLinks[i].classList.toggle("sticky", window.scrollY > 0);
+                navLinks[i].style.color = "black";
+            }
+        }
+        window.addEventListener("scroll", makeSticky);
 
+        AOS.init();
     </script>
 </body>
 </html>

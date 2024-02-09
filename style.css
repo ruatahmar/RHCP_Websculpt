@@ -13,12 +13,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:local;
-    
     height: 100%;
-    
-    
 }
 .topNavigation{
+    
     padding-left: 0px;
     margin-left: 0px;
     /*background: #1D2659;*/
@@ -26,18 +24,33 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width:100%;
+    transition: 0.6s;
+    z-index: 10000;
+    
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #3C120A;
+    border-bottom: 1px solid #441B0D;
+    
 }
 
 #logo{
+    position: relative;
     flex:1;
     font-size: 30px;
     font-family: Verdana;
     font-weight: bolder;
     display: flex;
     margin-left: 0px;
-    padding-left:75px;
+    padding-left:125px;
     width: 50%;
     justify-content: left;
+    transition: 0.6s;
 }
 
 #logoImage {
@@ -45,6 +58,8 @@ body{
     height: 50px;
     margin-left:50px;
     margin-right:20px;
+    transition: 0.6s;
+    
 }
 
 .navigationUl{
@@ -55,7 +70,7 @@ body{
     list-style: none;
     align-items: center;
     justify-content: center;
-    
+    transition: 0.6s;
 }
 
 .navigationLi{
@@ -67,6 +82,7 @@ body{
     display:flex;
     font-size: 18px;
     margin-right:50px;
+    transition: 0.6s;
 }
 
 
@@ -74,6 +90,7 @@ body{
     border:1px solid;
     padding:5px;
     border-radius: 5px;
+    transition: 0.6s;
 }
 
 .navHeroseparator{
@@ -84,6 +101,7 @@ body{
     width: 90%;
     opacity: 80%;
     margin-bottom: 100px;
+    /* margin-top:100px; */
     /* height: 1px; */
 }
 
@@ -481,6 +499,7 @@ iframe{
     padding-top: 40px;
     padding-bottom: 40px;
     background:#F8F4EA;
+    opacity: 85%;
     color: black;
     padding-left: 60px;
     padding-right:60px ;
@@ -512,7 +531,7 @@ iframe{
 
 li{
     font-size: 25px;
-    font-style: italic;
+    font-style: bold;
 }
 a:link,a:active, a:visited{
     text-decoration: none;

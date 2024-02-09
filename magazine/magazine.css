@@ -131,3 +131,8 @@ object{
     height:700px;
     display: flex;
 }
+
+.sticky {
+    padding-top: 5px;
+    background: #f8f4eaff; 
+}

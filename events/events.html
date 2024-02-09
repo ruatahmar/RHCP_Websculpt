@@ -14,43 +14,44 @@
         <link rel="stylesheet" href="events.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 
     </head>
     <body>
         <div class="navAndHero">
-            <div class="topNavigation">
+            <div id="nav1" class="topNavigation">
                 <div id="logo">
                     <!-- <img id="logoImage" src ="./src/home-background.jpg" width=5px height=50px alt="college-logo"> -->
-                    <img id="logoImage" src ="../src/home-background.jpg" alt="club-logo">
+                    <!-- <img id="logoImage" src ="./src/Logo.png" alt="club-logo"> -->
                     harmony synapses
                 </div>
-                <ul>
-                    <li>Future</li>
-                    <li>Faculty</li>
-                    <li>Students</li>
-                    <li>Events</li>
-                    <li id="contactUsButton">Contact Us</li>
+                <ul class="navigationUl">
+                    <li class="navigationLi"><a class="navLi"href="../faculty/faculty.html" style="color: white;">Faculty</a></li>
+                    <li class="navigationLi"><a class="navLi"href="../students/students.html" style="color: white;">Students</a></li>
+                    <li class="navigationLi"><a class="navLi" href="../achievements/achievements.html" style="color: white;">Achievements</a></li>
+                    <li class="navigationLi"><a class="navLi"href="../events/events.html" style="color: white;">Events</a></li>
+                    <li id="contactUsButton" class="navigationLi" ><a class="navLi"href="#contactUs" style="color: white;">Contact Us</a></li>
                 </ul>
             </div>
-
-            <div class="navHeroseparator"> </div>  
-
-            <div class="EventsTitleScreen">
-                <div class="titleHR" data-aos="fade-right"></div>
-                <h1 class="eventsTitle" data-aos="fade-right">EVENTS</h1>
-                <div class="titleHR" data-aos="fade-right"></div>
-            </div>
-            <p class="heroOneLiner">Stay in tune with Harmony Synapses: Explore the latest beats, melodies, and events shaping our musical community.</p>
-            
-            <div class="heroButtons">
-                <div class="toUpcomingEventsButton"><a class="heroLink"href="#upcomingEvents">Upcoming Events</a></div>
-                <div class="toCompletedEventsButton"><a class="heroLink"href="#completedEvents">Completed Events</a></div>
+            <div class="navHeroSeparator"></div>
+           
+            <div class="hero">
+                <div class="EventsTitleScreen">
+                    <div class="titleHR" data-aos="fade-right"></div>
+                    <h1 class="eventsTitle" data-aos="fade-right">EVENTS</h1>
+                    <div class="titleHR" data-aos="fade-right"></div>
+                </div>
+                <p class="heroOneLiner">Stay in tune with Harmony Synapses: Explore the latest beats, melodies, and events shaping our musical community.</p>
+                
+                <div class="heroButtons">
+                    <div class="toUpcomingEventsButton"><a class="heroLink"href="#upcomingEvents">Upcoming Events</a></div>
+                    <div class="toCompletedEventsButton"><a class="heroLink"href="#completedEvents">Completed Events</a></div>
+                </div>
             </div>
         </div> 
 
         <div class="middle">
-            <div id="belowHero" class="navHeroseparator"></div>
+            <!-- <div id="belowHero" class="navHeroseparator"></div> -->
 
             <div id="upcomingEvents">
                 <h1 class="upcomingEventsHeader">Upcoming Events</h1>
@@ -227,6 +228,19 @@
             </div>
         </div>
         <script>
+            var makeSticky = function() {
+                var navbar = document.getElementsByClassName("topNavigation");
+                var navLinks = document.getElementsByClassName("navigationLi");
+                console.log(navbar);
+                console.log(navLinks);
+                navbar[0].classList.toggle("sticky", window.scrollY > 0);
+                for(var i = 0; i < navLinks; i++) {
+                    console.log("hi");
+                    navLinks[i].classList.toggle("sticky", window.scrollY > 0);
+                    navLinks[i].style.color = "black";
+                }
+            }
+            window.addEventListener("scroll", makeSticky);
             AOS.init();
         </script>
     </body> 
