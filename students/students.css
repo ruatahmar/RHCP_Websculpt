@@ -1,3 +1,6 @@
+#my{
+    zoom: 70%;
+}
 body{
     padding: 0px;
     margin:0px;
@@ -95,7 +98,7 @@ body{
 }
 .fold5Left,.fold5Right{
     width: 50%;
-    margin:30px;
+    margin: 30px;
 }
 .fold5Right{
     margin-top:auto;
