@@ -533,17 +533,21 @@ li{
     font-size: 25px;
     font-style: bold;
 }
-a:link,a:active, a:visited{
+
+html{
+    scroll-behavior: smooth;
+}
+a:link,a:active,a:visited{
+    text-decoration: none;
+    color:black;    
+}
+a:hover{
+    color:#402D21;
+}
+a.navLi:link,a.navLi:active,a.navLi:visited{
     text-decoration: none;
     color:white;
 }
-a:hover{
-    text-decoration: none;
-    color:#402D21;
-}
 a.navLi:hover{
     color:#bebebe;
-}
-html{
-    scroll-behavior: smooth;
 }
