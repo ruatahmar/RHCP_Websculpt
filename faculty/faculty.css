@@ -361,6 +361,9 @@ iframe{
     font-family: 'Cooper';
     font-style:normal;
 }
+html{
+    scroll-behavior: smooth;
+}
 .contactHr{
     display: flex;
     margin:25x;

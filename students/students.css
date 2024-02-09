@@ -224,6 +224,9 @@ a.navLi:hover{
     align-items: right;
     height: 400px;
 }
+html{
+    scroll-behavior: smooth;
+}
 .right{
     display: flex;
     flex-direction: column;

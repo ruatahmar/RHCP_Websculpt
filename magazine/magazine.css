@@ -288,7 +288,9 @@ object{
     display: flex;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 .fold6{
     background: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);
     display: flex;
