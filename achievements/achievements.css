@@ -175,7 +175,7 @@ body{
     background-color: linear-gradient(0deg, #f5efe0ff, #f8f4eaff, #ffffffff);;
 }
 
-#fold{
+.fold{
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -413,4 +413,20 @@ iframe{
 .heroButtons{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.toUpcomingEventsButton, .toCompletedEventsButton{
+    border:1px solid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color:rgba(166,125,101, 0.79);
+    padding:10px;
+    margin:15px;
 }
