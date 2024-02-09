@@ -30,6 +30,14 @@ body{
     margin:0px;
 
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #3C120A;
+    border-bottom: 1px solid #441B0D;
+}
+
 .navAndHero{
     background-image: url('../src/faculty.jpg'); 
     background-size: cover;
@@ -58,14 +66,6 @@ body{
     
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #3C120A;
-    border-bottom: 1px solid #441B0D;
-    
-}
 
 #logo{
     position: relative;

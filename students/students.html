@@ -27,6 +27,15 @@
         <div class="navHeroSeparator"></div>
        
         <div class="hero">
+        
+            <div class="EventsTitleScreen">
+                <div class="titleHR" data-aos="fade-right"></div>
+                <h1 class="eventsTitle" data-aos="fade-right">STUDENTS</h1>
+                <div class="titleHR" data-aos="fade-right"></div>
+            </div>
+        
+        </div>
+    </div>
     <div class="mainContent">
         <h1 class="mainContentHeader">OUR TEAM</h1>
         <p class="magazinePresentedBy">The student body serves as the driving force behind the organization, facilitating communication, fostering collaboration, and empowering students to shape the future of Harmonic Synapses.</p>
@@ -222,6 +231,19 @@
 
 
     <script>
+        var makeSticky = function() {
+                var navbar = document.getElementsByClassName("topNavigation");
+                var navLinks = document.getElementsByClassName("navigationLi");
+                console.log(navbar);
+                console.log(navLinks);
+                navbar[0].classList.toggle("sticky", window.scrollY > 0);
+                for(var i = 0; i < navLinks; i++) {
+                    console.log("hi");
+                    navLinks[i].classList.toggle("sticky", window.scrollY > 0);
+                    navLinks[i].style.color = "black";
+                }
+            }
+            window.addEventListener("scroll", makeSticky);
         AOS.init();
     </script>
 </body>
